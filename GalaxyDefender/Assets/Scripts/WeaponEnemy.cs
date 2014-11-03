@@ -29,24 +29,17 @@ public class WeaponEnemy : MonoBehaviour
 		if (CanAttack)
 		{
 			shootCooldown = shootingRate;
-			
-			// Create a new shot 
 			var shotTransform = Instantiate(shotPrefab) as Transform;
-			// Assign position
 			shotTransform.position = transform.position;
-			
-			// The is enemy property
 			ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
 			if (shot != null)
 			{
 				shot.isEnemyShot = isEnemy;
 			}
-			
-			// Make the weapon shot always towards it
 			MoveShot move = shotTransform.gameObject.GetComponent<MoveShot>();
 			if (move != null)
 			{
-				move.direction = this.transform.right; // towards in 2D space is the right of the sprite
+				move.direction = this.transform.right;
 			}
 		}
 	}
