@@ -101,7 +101,7 @@ public class PlayerScript : MonoBehaviour {
 
 	public void increaseShot(){
 		WeaponScript weapon = this.GetComponent<WeaponScript>();
-		weapon.NewRate(-0.05f);
+		weapon.NewRate(-0.15f);
 	}
 	
 	void OnDestroy()
