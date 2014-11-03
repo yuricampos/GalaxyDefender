@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: cb530459e0d9a4d55b456a9735124821
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Explosions.fw_0
+    21300002: Explosions.fw_1
+    21300004: Explosions.fw_2
+    21300006: Explosions.fw_3
+    21300008: Explosions.fw_4
+    21300010: Explosions.fw_5
+    21300012: Explosions.fw_6
+    21300014: Explosions.fw_7
+    21300016: Explosions.fw_8
+    21300018: Explosions.fw_9
+    21300020: Explosions.fw_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Explosions.fw_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 832
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 823
+        width: 141
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 840
+        width: 157
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 807
+        width: 194
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 531
+        width: 194
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 531
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_6
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 528
+        width: 196
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_7
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 524
+        width: 196
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 263
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_9
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 260
+        width: 200
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Explosions.fw_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 271
+        width: 185
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
