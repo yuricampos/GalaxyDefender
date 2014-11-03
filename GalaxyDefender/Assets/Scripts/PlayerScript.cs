@@ -76,33 +76,34 @@ public class PlayerScript : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D collision)
 	{
 		bool damagePlayer = false;
-		LifeScript life = collision.gameObject.GetComponent<LifeScript>();
-		FireScript fire = collision.gameObject.GetComponent<FireScript>();
+
 		EnemyScript enemy = collision.gameObject.GetComponent<EnemyScript>();
+		HealthScript playerHealth = this.GetComponent<HealthScript>();
+		WeaponScript weapon = this.GetComponent<WeaponScript>();
 		if (enemy != null)
 		{
 			HealthScript enemyHealth = enemy.GetComponent<HealthScript>();
 			if (enemyHealth != null) enemyHealth.Damage(enemyHealth.hp);
-			
 			damagePlayer = true;
 		}
 
 		if (damagePlayer)
 		{
-			HealthScript playerHealth = this.GetComponent<HealthScript>();
 			if (playerHealth != null) playerHealth.Damage(1);
 		}
-		if (life != null) {
-			HealthScript playerHealth = this.GetComponent<HealthScript>();
-			playerHealth.Life(1);
 
-				}
-		if (fire != null) {
-			WeaponScript weapon = this.GetComponent<WeaponScript>();
-			weapon.NewRate(0.2f);
-				}
 	}
 
+	public void increaseLife(){
+		HealthScript playerHealth = this.GetComponent<HealthScript>();
+		playerHealth.Life(1);
+	}
+
+	public void increaseShot(){
+		WeaponScript weapon = this.GetComponent<WeaponScript>();
+		weapon.NewRate(-0.05f);
+	}
+	
 	void OnDestroy()
 	{
 		if (Application.loadedLevelName == "LevelOne") {
