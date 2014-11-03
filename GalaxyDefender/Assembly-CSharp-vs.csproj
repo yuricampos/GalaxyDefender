@@ -50,6 +50,8 @@
      <Compile Include="Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\FinalOneScript.cs" />
      <Compile Include="Assets\Scripts\GameOverScript.cs" />
+     <Compile Include="Assets\Scripts\GameOverScriptThree.cs" />
+     <Compile Include="Assets\Scripts\GameOverScriptTwo.cs" />
      <Compile Include="Assets\Scripts\HealthScript.cs" />
      <Compile Include="Assets\Scripts\MoveBackground.cs" />
      <Compile Include="Assets\Scripts\MoveEnemy.cs" />
@@ -59,9 +61,13 @@
      <Compile Include="Assets\Scripts\RendererExtensions.cs" />
      <Compile Include="Assets\Scripts\ShotScript.cs" />
      <Compile Include="Assets\Scripts\TransitionOneScript.cs" />
+     <Compile Include="Assets\Scripts\TransitionThreeScript.cs" />
+     <Compile Include="Assets\Scripts\TransitionTwoScript.cs" />
      <Compile Include="Assets\Scripts\WeaponEnemy.cs" />
      <Compile Include="Assets\Scripts\WeaponScript.cs" />
      <Compile Include="Assets\Scripts\WinLevelOne.cs" />
+     <Compile Include="Assets\Scripts\WinLevelThree.cs" />
+     <Compile Include="Assets\Scripts\WinLevelTwo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

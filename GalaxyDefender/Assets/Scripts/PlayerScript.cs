@@ -57,6 +57,8 @@ public class PlayerScript : MonoBehaviour {
 
 		 * */
 
+
+
 		transform.position = new Vector3(
 			Mathf.Clamp(transform.position.x, leftBorder, rightBorder),
 			Mathf.Clamp(transform.position.y, topBorder, bottomBorder),
@@ -93,7 +95,16 @@ public class PlayerScript : MonoBehaviour {
 
 	void OnDestroy()
 	{
-		transform.parent.gameObject.AddComponent<GameOverScript>();
+		if (Application.loadedLevelName == "LevelOne") {
+			transform.parent.gameObject.AddComponent<GameOverScript>();
+				}
+		if (Application.loadedLevelName == "LevelTwo") {
+			transform.parent.gameObject.AddComponent<GameOverScriptTwo>();
+		}
+		if (Application.loadedLevelName == "LevelThree") {
+			transform.parent.gameObject.AddComponent<GameOverScriptThree>();
+		}
+
 	}
 
 	}
