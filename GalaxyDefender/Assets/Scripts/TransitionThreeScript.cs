@@ -23,3 +23,4 @@ public class TransitionThreeScript : MonoBehaviour {
 			Application.LoadLevel("Menu");
 		}
 	}
+}

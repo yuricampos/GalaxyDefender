@@ -37,3 +37,4 @@ public class TransitionTwoScript : MonoBehaviour {
 			Application.LoadLevel("Menu");
 		}
 	}
+}
