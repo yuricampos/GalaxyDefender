@@ -13,6 +13,12 @@ public class HealthScript : MonoBehaviour
 			Destroy(gameObject);
 		}
 	}
+
+	public void Life(int plus)
+	{
+		hp = hp + plus;
+	}
+
 	
 	void OnTriggerEnter2D(Collider2D otherCollider)
 	{

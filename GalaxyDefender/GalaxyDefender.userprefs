@@ -1,21 +1,22 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WinLevelTwo.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameOverScriptThree.cs">
     <Files>
-      <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" Line="34" Column="15" />
-      <File FileName="Assets/Scripts/WinLevelOne.cs" Line="18" Column="3" />
-      <File FileName="Assets/Scripts/EnemyScript.cs" Line="61" Column="1" />
+      <File FileName="Assets/Scripts/HealthScript.cs" Line="20" Column="3" />
+      <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WinLevelOne.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/FinalOneScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TransitionOneScript.cs" Line="4" Column="50" />
-      <File FileName="Assets/Scripts/GameOverScript.cs" Line="4" Column="1" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="110" Column="1" />
-      <File FileName="Assets/Scripts/GameOverScriptTwo.cs" Line="22" Column="35" />
-      <File FileName="Assets/Scripts/GameOverScriptThree.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/WinLevelThree.cs" Line="18" Column="3" />
+      <File FileName="Assets/Scripts/TransitionOneScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameOverScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="97" Column="24" />
+      <File FileName="Assets/Scripts/GameOverScriptTwo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameOverScriptThree.cs" Line="30" Column="16" />
+      <File FileName="Assets/Scripts/WinLevelThree.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/WinLevelTwo.cs" Line="16" Column="4" />
-      <File FileName="Assets/Scripts/TransitionTwoScript.cs" Line="40" Column="2" />
-      <File FileName="Assets/Scripts/TransitionThreeScript.cs" Line="26" Column="2" />
-      <File FileName="Assets/Scripts/HealthScript.cs" Line="33" Column="22" />
+      <File FileName="Assets/Scripts/TransitionTwoScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TransitionThreeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HealthScript.cs" Line="46" Column="2" />
       <File FileName="Assets/Scripts/EnemyManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MoveBackground.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MoveEnemy.cs" Line="1" Column="1" />
@@ -23,8 +24,13 @@
       <File FileName="Assets/Scripts/MoveShot.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/RendererExtensions.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ShotScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/WeaponEnemy.cs" Line="42" Column="43" />
-      <File FileName="Assets/Scripts/WeaponScript.cs" Line="3" Column="1" />
+      <File FileName="Assets/Scripts/WeaponEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WeaponScript.cs" Line="1" Column="1" />
+      <File FileName="../../Downloads/hw/Assets/Scripts/KeyScript.cs" Line="12" Column="1" />
+      <File FileName="../../Downloads/hw/Assets/Scripts/DoorScript.cs" Line="1" Column="1" />
+      <File FileName="../../Downloads/hw/Assets/Scripts/DoorScript2.cs" Line="1" Column="1" />
+      <File FileName="../../Downloads/hw/Assets/Scripts/BackDoor.cs" Line="11" Column="28" />
+      <File FileName="Assets/Scripts/LifeScript.cs" Line="23" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

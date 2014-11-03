@@ -49,10 +49,12 @@
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\FinalOneScript.cs" />
+     <Compile Include="Assets\Scripts\FireScript.cs" />
      <Compile Include="Assets\Scripts\GameOverScript.cs" />
      <Compile Include="Assets\Scripts\GameOverScriptThree.cs" />
      <Compile Include="Assets\Scripts\GameOverScriptTwo.cs" />
      <Compile Include="Assets\Scripts\HealthScript.cs" />
+     <Compile Include="Assets\Scripts\LifeScript.cs" />
      <Compile Include="Assets\Scripts\MoveBackground.cs" />
      <Compile Include="Assets\Scripts\MoveEnemy.cs" />
      <Compile Include="Assets\Scripts\MoveScript.cs" />
