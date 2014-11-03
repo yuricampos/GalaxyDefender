@@ -22,6 +22,10 @@ public class WeaponScript : MonoBehaviour
 			shootCooldown -= Time.deltaTime;
 		}
 	}
+
+	public void NewRate(float rate){
+		shootingRate = shootingRate + rate;
+		}
 	
 
 	public void Attack(bool isEnemy)

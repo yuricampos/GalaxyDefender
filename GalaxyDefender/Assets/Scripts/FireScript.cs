@@ -3,13 +3,17 @@ using System.Collections;
 
 public class FireScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	void Update () {
+		Collision2D collision1 = null;
+		OnCollisionEnter2D(collision1);
+		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	void OnCollisionEnter2D(Collision2D collision)
+	{
+		if(collision != null){
+			Destroy (gameObject);
+		}
+		
 	}
 }

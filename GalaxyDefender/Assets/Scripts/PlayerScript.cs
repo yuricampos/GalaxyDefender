@@ -77,7 +77,7 @@ public class PlayerScript : MonoBehaviour {
 	{
 		bool damagePlayer = false;
 		LifeScript life = collision.gameObject.GetComponent<LifeScript>();
-
+		FireScript fire = collision.gameObject.GetComponent<FireScript>();
 		EnemyScript enemy = collision.gameObject.GetComponent<EnemyScript>();
 		if (enemy != null)
 		{
@@ -96,6 +96,10 @@ public class PlayerScript : MonoBehaviour {
 			HealthScript playerHealth = this.GetComponent<HealthScript>();
 			playerHealth.Life(1);
 
+				}
+		if (fire != null) {
+			WeaponScript weapon = this.GetComponent<WeaponScript>();
+			weapon.NewRate(0.2f);
 				}
 	}
 
