@@ -25,4 +25,15 @@ public class HealthScript : MonoBehaviour
 			}
 		}
 	}
+
+	void OnGUI()
+	{
+		string stringToEdit = ""+hp.ToString();
+		//GUI.Box (new Rect (0,0,100,50), hp+"lifes");
+		int TextWidth = 35;
+		//GUI.Label(new Rect(Screen.width-TextWidth, 10, TextWidth, 22), ""+hp);
+		//GUI.Label(new Rect(Screen.width-TextWidth, 10, TextWidth, 22), "");
+		//GUI.Label(new Rect(Screen.width-TextWidth, 10, TextWidth, 22), ""+hp);
+		stringToEdit = GUI.TextField(new Rect(Screen.width-TextWidth, 10, TextWidth, 22), stringToEdit, 25);
+	}
 }
