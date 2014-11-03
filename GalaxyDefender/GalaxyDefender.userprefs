@@ -1,19 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelOneTransition.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WinLevelOne.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelOneTransition.cs" Line="20" Column="1" />
-      <File FileName="Assets/Scripts/WeaponScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/WeaponEnemy.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MoveEnemy.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnemyScript.cs" Line="16" Column="14" />
-      <File FileName="Assets/Scripts/FinalOneScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameOverScript.cs" Line="4" Column="1" />
-      <File FileName="Assets/Scripts/HealthScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MoveBackground.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MoveScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/WinLevelOne.cs" Line="15" Column="3" />
-      <File FileName="Assets/Scripts/TransitionOneScript.cs" Line="17" Column="6" />
+      <File FileName="Assets/Scripts/EnemyScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FinalOneScript.cs" Line="23" Column="4" />
+      <File FileName="Assets/Scripts/WinLevelOne.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

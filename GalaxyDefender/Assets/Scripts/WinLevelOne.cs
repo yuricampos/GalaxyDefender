@@ -12,9 +12,7 @@ public class WinLevelOne : MonoBehaviour {
 	void Update () {
 
 		if (renderer.IsVisibleFrom(Camera.main)) {
-//			GameOverScript script = new<GameOverScript>();
-
-			transform.parent.gameObject.AddComponent<GameOverScript>();
+			Application.LoadLevel("TransitionOne");
 				}
 	
 	}
