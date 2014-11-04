@@ -42,7 +42,10 @@ public class EnemyScript : MonoBehaviour
 				if (weapon != null && weapon.enabled && weapon.CanAttack)
 				{
 					weapon.Attack(true);
-					SoundEffectsHelper.Instance.MakeEnemyShotSound();
+					if (renderer.IsVisibleFrom(Camera.main) == true){
+						SoundEffectsHelper.Instance.MakeEnemyShotSound();
+					}
+
 				}
 			}
 		    
