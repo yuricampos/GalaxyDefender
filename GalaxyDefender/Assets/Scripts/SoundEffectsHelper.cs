@@ -13,7 +13,7 @@ public class SoundEffectsHelper : MonoBehaviour
 	public AudioClip enemyShotSound;
 	
 	void Awake()
-	{n
+	{
 		if (Instance != null)
 		{
 			Debug.LogError("Multiple instances of SoundEffectsHelper!");
