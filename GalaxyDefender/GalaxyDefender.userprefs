@@ -1,17 +1,24 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameOverScriptTwo.cs">
     <Files>
+      <File FileName="Assets/Scripts/WinLevelOne.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerScript.cs" Line="104" Column="22" />
       <File FileName="Assets/Scripts/EnemyScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/WeaponScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="124" Column="1" />
-      <File FileName="Assets/Scripts/FireScript.cs" Line="27" Column="23" />
-      <File FileName="Assets/Scripts/LifeScript.cs" Line="4" Column="41" />
-      <File FileName="Assets/Scripts/EnemyManager.cs" Line="21" Column="2" />
+      <File FileName="Assets/Scripts/FireScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LifeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MoveShot.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ShotScript.cs" Line="4" Column="41" />
-      <File FileName="Assets/Scripts/HealthScript.cs" Line="45" Column="3" />
+      <File FileName="Assets/Scripts/ShotScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HealthScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WinLevelThree.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WinLevelTwo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TransitionOneScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TransitionThreeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameOverScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameOverScriptThree.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameOverScriptTwo.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
