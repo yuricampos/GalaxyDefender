@@ -1,17 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuScript.cs">
     <Files>
+      <File FileName="Assets/Scripts/TransitionTwoScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SoundEffectsHelper.cs" Line="16" Column="3" />
       <File FileName="Assets/Scripts/WinLevelOne.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="32" Column="55" />
-      <File FileName="Assets/Scripts/EnemyScript.cs" Line="39" Column="4" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/WeaponScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/FireScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LifeScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/EnemyManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MoveShot.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ShotScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HealthScript.cs" Line="13" Column="53" />
+      <File FileName="Assets/Scripts/HealthScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/WinLevelThree.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/WinLevelTwo.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/TransitionOneScript.cs" Line="1" Column="1" />
@@ -19,7 +21,7 @@
       <File FileName="Assets/Scripts/GameOverScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GameOverScriptThree.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GameOverScriptTwo.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SoundEffectsHelper.cs" Line="16" Column="3" />
+      <File FileName="Assets/Scripts/MenuScript.cs" Line="21" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
